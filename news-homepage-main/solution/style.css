@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+img{  
+    max-width: 100%;
+}
+.logo{
+    padding-bottom: 20px;
+}
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px 0px;
+    font-family: "Inter";
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    
+}
+.nav-bar li{
+    margin-left:2rem;
+    
+}
+.nav-bar a {
+    text-decoration: none;
+    color:hsl(236, 13%, 42%);
+}
+a:hover{
+    color:hsl(35, 77%, 62%);
+}
+.main-section{
+    display: flex;
+    width: 100%;
+    gap:2rem;
+    justify-content: space-between;
+    margin-top:25px;
+
+}
+.main-section img{
+    width:100%;
+    height: 269px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    gap:1.5em;
+    margin: 30px 0;
+}
+.para{
+    color:hsl(236, 13%, 42%);
+    line-height: 25px;
+   
+}
+button{
+    background-color:hsl(5, 85%, 63%);
+    border:none;
+    letter-spacing: 3px;
+    font-weight:bold;
+    color:#fff;
+    margin-top: 25px;
+    padding: 13px 20px;
+    cursor:pointer;
+}
+button:hover{
+    background-color:hsl(240, 100%, 5%);
+}
+.heading h1{
+    width: 100%;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 900;
+}
+.right-side{
+    background-color: hsl(240, 100%, 5%);
+    color:white;
+    padding:10px;
+    width:90%;
+}
+.right-side h3{
+    margin: 15px 0;
+    font-size: 30px;
+    color:hsl(35, 77%, 62%);
+    padding: 0 15px;
+}
+.cards{
+    padding: 15px;
+}
+.cards h4{
+    margin-bottom: 15px;
+    font-size: 18px;
+    
+    
+}
+.cards h4:hover{
+    color:hsl(35, 77%, 62%);
+    cursor:pointer;
+}
+.cards  p:not(.last){
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+    padding-bottom:20px;
+}
+.cards p{
+    color:hsl(233, 8%, 79%);
+    line-height: 25px;
+    font-size: 15px;
+}
+.rating{
+    display: flex;
+    margin:50px 0;
+    padding: 25px 0;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+}
+.products{
+    display: flex;
+}
+.images{
+    width: 100%;
+    height: 100%;
+}
+.products h3{
+    color:hsl(236, 13%, 42%);
+    font-size: 25px;
+  
+}
+.description h4{
+    font-size: 20px;
+    padding:15px 0;
+    width:100%;
+    
+}
+.description h4:hover{
+    color:hsl(35, 77%, 62%);
+    cursor:pointer;
+}
+.description {
+    margin: 0 25px;
+}
+.description p{
+    color:hsl(236, 13%, 42%);
+    line-height: 22px;
+}
